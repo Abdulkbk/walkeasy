@@ -1,16 +1,15 @@
-# walkeasy
 
-A new Flutter project.
+# Project Name: WalkEasy
 
-## Getting Started
+## Introduction
+Welcome to the **WalkEasy** repository! This mobile application is built using [Flutter], a cross-platform framework for building beautiful, fast, and reliable mobile applications.
 
-This project is a starting point for a Flutter application.
+The application makes use of [Firebase] and [Firestore] as the backend platform and database, respectively. Firebase provides a range of powerful tools and services for building mobile and web applications, including authentication, storage, and real-time database. Firestore is a NoSQL document-oriented database that allows for easy storage and retrieval of data.
 
-A few resources to get you started if this is your first Flutter project:
+I strive to follow best practices in software development, including writing clean and maintainable code, conducting thorough testing, and using version control (Git).
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Features
+- **Auth**: Sign in and Sign up
+- **CRUD**: Add and manage products
+
