@@ -3,6 +3,7 @@ import 'package:get/get.dart';
 import 'package:walkeasy/screen/home_screen.dart';
 import 'package:walkeasy/screen/login_screen.dart';
 import 'package:walkeasy/screen/onboard_screen.dart';
+import 'package:walkeasy/screen/register_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -20,11 +21,12 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      initialRoute: '/onboard',
+      initialRoute: '/register',
       getPages: [
         GetPage(name: '/', page: () => const HomeScreen()),
         GetPage(name: '/onboard', page: () => const OnboardScreen()),
-        GetPage(name: '/login', page: () => const LoginScreen())
+        GetPage(name: '/login', page: () => const LoginScreen()),
+        GetPage(name: '/register', page: () => const RegisterScreen()),
       ],
     );
   }
