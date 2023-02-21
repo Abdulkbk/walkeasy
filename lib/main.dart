@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      initialRoute: '/register',
+      initialRoute: '/onboard',
       getPages: [
         GetPage(name: '/', page: () => const HomeScreen()),
         GetPage(name: '/onboard', page: () => const OnboardScreen()),
